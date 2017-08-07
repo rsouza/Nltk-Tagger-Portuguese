@@ -14,7 +14,7 @@ tags = [tagger.tag(nltk.word_tokenize(sentence)) for sentence in sentences]
 
 #Modelos
 
-##DefaultTagger
+## DefaultTagger
 Último fallback da cadeia, se ninguém resolver a palavra então ela deve ser um NOUN (substantivo).
 
 ## AffixTagger
